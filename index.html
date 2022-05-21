@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <h1 id="heading">Counter</h1>
+            <div class="counter-main">
+                <button id="set-number">Set counter starting number</button>
+                <div class="display-circle">
+                    <h1 id="count-display">0</h1>
+                </div>
+                <div class="count-btn">
+                    <button id="count-btn">Count</button>
+                </div>
+                <div class="btns">
+                    <button id="reset-btn">Reset</button>
+                    <button id="save-btn">Save</button>
+                </div>
+                <button id="view-btn">View Countings list</button>
+            </div>
+            <input type="text" placeholder="Enter Title" id="input-box">
+            <button id="cancel-btn">Cancel</button>
+            <button id="ok-btn">OK</button>
+                <div class="popup" id="popup">
+                    <button onclick="closePopup()">&times;</button>
+                    <ul id="ul-el">
+
+                    </ul>
+                    <button id="delete-btn">Delete all</button>
+                </div>
+            </div>
+            <div class="overlay" id="overlay"></div>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

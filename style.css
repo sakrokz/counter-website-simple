@@ -1,0 +1,227 @@
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(120, 120, 250);
+    min-height: 600px;
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(120, 120, 250);
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+button{
+    cursor: pointer;
+}
+#heading{
+    position: absolute;
+    height: 50px;
+    background-color: rgb(170, 239, 10);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: -50px;
+    color: #ff0000;
+}
+.counter-main{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgb(250, 137, 137);
+    border-radius: 17px;
+}
+.display-circle{
+    position: absolute;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(50, 49, 49);
+    border-radius: 50%;
+    background-color: #9fe5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btns{
+    position: absolute;
+    margin-top: 275px;
+}
+.btns button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(170, 239, 10);
+    color: #ff0000;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.display-circle h1{
+    font-size: 50px;
+}
+.count-btn{
+    position: absolute;
+    margin-top: 210px;
+}
+.count-btn button{
+    width: 145px;
+    height: 50px;
+    background-color: rgb(10, 75, 239);
+    color: #00e5ff;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#count-btn:hover{
+    background-color: rgb(0, 39, 139);
+    color: #64e0ee;
+}
+.btns button:hover{
+    background-color: rgb(132, 186, 8);
+}
+#count-display{
+    color: #ff0000;
+}
+.popup{
+    width: 730px;
+    height: 370px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+.popup button{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 25px;
+    margin-right: -600px;
+}
+#ul-el{
+    width: 700px;
+    height: 500px;
+    margin-top: 450px;
+    background: #e0e1e4;
+    border-radius: 20px;
+    padding: 20px;
+    color: chocolate;
+    font-weight: bold;
+    list-style: none;
+}
+#delete-btn{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    margin-top: 900px;
+    margin-left: -30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.active{
+    visibility: visible;
+    top: 30%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.overlay{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.active-overlay{
+    background-color: rgb(4, 2, 97);
+}
+
+#input-box{
+    width: 275px;
+    height: 60px;
+    position: absolute;
+    margin-top: 450px;
+    border-radius: 6px;
+    border: 1px solid #00e5ff;
+    text-align: center;
+    background-color: #F3E5AB;
+    margin-left: 120px;
+    display: none;
+
+}
+#cancel-btn{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-top: 520px;
+    margin-right: -80px;
+    border-radius: 5px;
+    border: 1px solid #00e5ff;
+    background-color: #F3E5AB;
+    display: none;
+
+}
+#ok-btn{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-top: 520px;
+    margin-right: -290px;
+    border-radius: 5px;
+    border: 1px solid #00e5ff;
+    background-color: #F3E5AB;
+    display: none;
+}
+#view-btn{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -200px;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(224, 242, 182);
+    color: #ff0000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#set-number{
+    width: 150px;
+    height: 40px;
+    background-color: khaki;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: -200px;
+    margin-top: 10px;
+    color: mediumblue;
+}
+
+
+
+
+
+

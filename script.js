@@ -97,6 +97,11 @@ setNumberBtn.addEventListener("click", function() {
     let setNumber = prompt("Enter counter starting number: ")
     number = setNumber
     countDisplay.textContent = number
+    if(isNaN(setNumber)){
+        alert("Enter a valid number")
+        number = 0
+        countDisplay.textContent = number
+    }
 })
 
 

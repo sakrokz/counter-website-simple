@@ -157,7 +157,8 @@ button{
     height: 100vh;
 }
 .active-overlay{
-    background-color: rgb(4, 2, 97);
+    background-color: #000;
+    opacity: 40%;
 }
 
 #input-box{
